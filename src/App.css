@@ -1,0 +1,197 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Tahoma';
+  cursor: pointer;
+  text-decoration: none;
+  top:0;
+  background-color: lightcyan;
+  width: 100%;
+  position: fixed;  
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 9999;
+  
+}
+
+.nav > :hover{ 
+  content: '';
+  border-bottom: solid 3px lightpink;  
+  transition: transform 800ms ease-in-out;
+  z-index: 9999;
+}
+
+.active {
+  border-bottom: solid 3px lightpink;  
+  transition: transform 800ms ease-in-out;
+  display: inline-block;
+  overflow: auto;
+}
+
+
+.home-section{
+  height :100vh;
+  background-color: lightpink;
+  background-image: url('./assets/sparkly-pink.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  
+}
+.about-section{
+  height :100%;
+  width :100%;
+  background-color: lightpink;
+  padding: 170px 0;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.experiences-section{
+  height :100vh;
+  background-color: lightpink;
+  padding-bottom: 60px;
+  padding-top: 80px;
+  height :100%;
+  width :100%;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.projects-section{
+  height :100vh;
+  background-color: lightpink;
+  height :100%;
+  width :100%;
+  padding: 120px 0;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.card-img-top{
+  width: 400px;
+  height: 300px;
+}
+.project-heading{
+  text-align: center;
+}
+
+.skills-section{
+  height :100vh;
+  background-color: lightpink;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.photoshoots-section{
+  height :100vh;
+  background-color:lightpink;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.interests-section{
+  height :100vh;
+  background-color: lightpink;
+  background-image: url('./assets/nyc.jpg');
+  background-size: 1500px 380px;
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 400;
+  height :100%;
+  width :100%;
+  padding-bottom:170px;
+  visibility: visible;
+  animation-name: fadeIn;
+}
+
+.go-top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 30px;
+  right: 0;
+  color: lightcyan;
+  background-color:black;
+  z-index: 1;
+  width: 90px;
+  text-align: center;
+  height: 45px;
+  border-radius: 10px 0 0 10px;
+  line-height: 46px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer{
+  padding: 20px 0;
+  text-align: center;
+  background-color: lightcyan;
+}
+
+.footer-btn{
+  text-align: center;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.bio-img-circle {
+  border-radius: 50%;
+}
+
+.centered {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-family: 'Helvetica Neue';
+  padding-bottom: 350px;
+}
+
+.linkedin{
+  height:30px;
+  width:70px;
+}
+
+.btn{
+  float:left;
+}
+
+.skills-header { 
+  color: darkcyan;
+  display:inline-block; 
+  margin:0;
+  text-transform:uppercase;
+}
+
+.skills-header:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #019fb6;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+.interest-header{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 0px;
+  position:relative;
+  display: block;
+
+}
+.interest-para{
+  font-weight: bold;
+}
