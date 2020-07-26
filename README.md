@@ -1,3 +1,6 @@
+# Portfolio Description
+Hi my name is Zahin Roja and I am a software engineer and data science enthusiast based in NYC. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
