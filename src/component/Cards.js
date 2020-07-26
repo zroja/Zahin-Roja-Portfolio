@@ -25,7 +25,7 @@ class Cards extends Component{
                     </div>
 
                     <div className="col-md-4">
-                        <Card imgsrc={NBCU} title='Software Engineer Intern' text='January 2019 - March 2019'/>
+                        <Card imgsrc={NBCU} title='Mediatech Intern' text='January 2019 - March 2019'/>
                     </div>
 
                     <div className="col-md-4">
